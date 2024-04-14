@@ -35,7 +35,7 @@ const Reviews = () => {
           <p className="apply-font-color">Loading.....</p>
         )}
       </Row>
-      <Row className="d-flex align-items-center justify-content-evenly p-0">
+      <Row className="d-flex align-items-center justify-content-evenly p-0 mt-3">
         <Button
           className="w-25"
           onClick={() => {

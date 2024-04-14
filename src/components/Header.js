@@ -19,7 +19,10 @@ const Header = () => {
         >
           TANN TRIM
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="bg-secondary"
+        />
         <Navbar.Collapse
           id="responsive-navbar-nav"
           className="font-family-encode-sans apply-black-background-color"

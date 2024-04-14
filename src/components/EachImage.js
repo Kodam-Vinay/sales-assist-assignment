@@ -8,7 +8,7 @@ const EachImage = ({ details }) => {
       <div>
         <img src={details?.image} alt={details?.name} className="h-75" />
         <BookMarkLogo
-          className="position-absolute negative-margin-left apply-color-to-bookmark"
+          className="position-absolute negative-margin-left apply-color-to-bookmark cursor-pointer"
           color="#0C0C0C"
         />
         <div>
@@ -21,7 +21,7 @@ const EachImage = ({ details }) => {
                 (50% off)
               </p>
             </div>
-            <AddToCartLogo className="mb-2" />
+            <AddToCartLogo className="mb-2 cursor-pointer" />
           </div>
         </div>
       </div>

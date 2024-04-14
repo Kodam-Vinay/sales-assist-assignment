@@ -65,7 +65,7 @@ const ProductsNavigationBar = () => {
           {bagTypesList.map((each) => (
             <Col
               key={each.id}
-              className="m-2 d-flex flex-column align-items-center col-3 col-sm-2 col-md-1"
+              className="m-2 d-flex flex-column align-items-center col-3 col-sm-2 col-md-1 cursor-pointer"
             >
               {each.svgLogo}
               <span className="each-bag-text apply-font-color font-family-encode-sans">

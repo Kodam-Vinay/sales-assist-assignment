@@ -50,7 +50,9 @@ const ShowBagsContainer = () => {
       <Row className="apply-display-property me-1 ms-1">
         <Col className="d-flex align-items-center font-family-encode-sans apply-font-color col-5 col-md-2">
           <p className="add-font-size">Bags</p>
-          <div className="apply-height-width-to-dot"></div>
+          <div className="mb-3 mb-md-4">
+            <span className="fs-1">.</span>
+          </div>
           <p className="add-font-size">Backpacks</p>
         </Col>
         <Col className="font-family-encode-sans apply-font-color d-none col-1 col-md-8"></Col>
