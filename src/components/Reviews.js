@@ -9,6 +9,7 @@ const Reviews = () => {
   const [page, setPage] = useState(1);
   useEffect(() => {
     getData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
   const getData = async () => {
     try {
